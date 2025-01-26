@@ -518,3 +518,9 @@ span {
     resize: none;
     border: 1px solid var(--text-color);
 }
+
+.contact form .btn {
+    margin-top: 2rem;
+    cursor: pointer;
+    border: none;
+}
