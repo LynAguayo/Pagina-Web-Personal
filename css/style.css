@@ -78,3 +78,17 @@ section {
     transform: scale(1.1);
     color: var(--hover-color);
 }
+
+.navbar a {
+    font-size: 2rem;
+    color: var(--text-color);
+    font-weight: 500;
+    margin-left: 4rem;
+    transition: 0.3s ease-in-out;
+    display: inline-block; 
+}
+
+.navbar a:hover {
+    transform: scale(1.1);
+    color: var(--hover-color);
+}
