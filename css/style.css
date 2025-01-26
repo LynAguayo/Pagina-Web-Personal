@@ -370,3 +370,49 @@ span {
     width: 4rem;
     height: 4rem;
 }
+
+.skills .container {
+    background: var(--second-bg-color);
+    padding: 2rem;
+    width: 100%; /* Ajuste del ancho */
+    max-width: 1200px; /* Puedes definir un máximo si es necesario */
+    margin: auto;
+    border-radius: 1rem;
+}
+
+.skills .container .row {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Ajuste responsivo */
+    gap: 1.8rem;
+}
+
+.skills .container .bar {
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 6px 6px 15px var(--main-color);
+    transition: 0.3s ease;
+    cursor: pointer;
+    background-color: var(--bg-color);
+    border: 1px solid var(--text-color);
+    width: 100%; /* Asegura que ocupe todo el ancho disponible */
+}
+
+.skills .container .bar:hover {
+    box-shadow: 6px 6px 15px var(--hover-color);
+    transform: scale(1.03);
+    border: 1px solid var(--hover-color);
+}
+
+.skills .container .bar .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.skills .container .bar .info span {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-left: 0.5rem;
+}
