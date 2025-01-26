@@ -1,6 +1,6 @@
 # 🌐 Web Personal
 
-Este es un proyecto web personal desarrollado con HTML, CSS y JavaScript(básico). El sitio incluye secciones sobre mí, habilidades, proyectos y contacto. Utiliza animaciones y efectos de interactividad.
+Este es un proyecto web personal desarrollado con HTML, CSS y JavaScript (básico). El sitio incluye secciones sobre mí, habilidades, proyectos y contacto. Utiliza animaciones y efectos de interactividad.
 
 ## ✨ Características
 
