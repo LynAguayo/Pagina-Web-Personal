@@ -13,3 +13,26 @@
         padding-bottom: 10%;
     }
 }
+
+/* Para pantallas menores a 991px */
+@media (max-width: 991px) {
+    .header{
+        padding: 2rem 3%;
+    }
+
+    section{
+        padding: 10rem 3% 2rem;
+    }
+
+    .skills, .projects {
+        padding-bottom: 7rem;
+    }
+
+    .contact{
+        min-height: auto;
+    }
+
+    .footer{
+        padding: 2rem 3%;
+    }
+}
