@@ -498,3 +498,23 @@ span {
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
+.contact form .input-box input, .contact form textarea {
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    color: var(--text-color);
+    background: var(--second-bg-color);
+    border-radius: 0.8rem;
+    margin: 0.7rem 0;
+}
+
+.contact form .input-box input {
+    width: 49%;
+    border: 1px solid var(--text-color);
+}
+
+.contact form textarea {
+    resize: none;
+    border: 1px solid var(--text-color);
+}
