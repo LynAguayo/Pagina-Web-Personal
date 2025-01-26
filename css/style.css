@@ -22,3 +22,18 @@
     --main-color: #FF7E70;
     --hover-color: #ff6347;
 }
+
+html {
+    font-size: 62.5%;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    overflow: auto;
+    background: var(--bg-color);
+    color: var(--text-color);
+}
