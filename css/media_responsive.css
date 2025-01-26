@@ -133,3 +133,15 @@
         width: 100%;
     }
 }
+
+/* Para pantallas menores a 365px */
+@media (max-width: 365px){
+    .footer{
+        flex-direction: column-reverse; /* Cambia la dirección de los elementos */
+    }
+
+    .footer p{
+        text-align: center;
+        margin-top: 2rem;
+    }
+}
