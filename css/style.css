@@ -332,3 +332,25 @@ span {
     font-weight: 700;
     margin-top: 0.5rem;
 }
+
+/* -------------------------------------------------------------------
+   Estilos para el círculo que aparece antes de cada caja de contenido
+------------------------------------------------------------------- */
+.content-box::before {
+    position: absolute;
+    content: '';
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: var(--main-color);
+    border-radius: 50%;
+    left: -3.7rem;
+    top: 6rem;
+    box-shadow: 4px 4px 15px var(--main-color);
+}
+
+.content-box:hover::before {
+    background-color: var(--hover-color); 
+    transform: scale(1.1);     
+    box-shadow: 0;
+    box-shadow: 4px 4px 20px var(--hover-color);
+}
