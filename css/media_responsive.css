@@ -118,3 +118,18 @@
         text-align: center;
     }
 }
+
+/* Para pantallas menores a 450px */
+@media (max-width: 450px){
+    .home-img img{
+        width: 45vw;
+    }
+
+    html{
+        font-size: 40%;
+    }
+
+    .contact form .input-box input{
+        width: 100%;
+    }
+}
