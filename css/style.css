@@ -477,3 +477,24 @@ span {
     font-size: 1.5rem;
     padding: 1rem;
 }
+
+/* -------------------------------------------------------------------
+   Section CONTACT: Estilos para el formulario de contacto, incluyendo
+   los campos de entrada, el diseño de la caja de entrada y el botón de envío
+------------------------------------------------------------------- */
+.contact h2 {
+    margin-bottom: 3rem;
+}
+
+.contact form {
+    max-width: 70rem;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.contact form .input-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
