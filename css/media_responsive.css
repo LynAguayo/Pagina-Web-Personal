@@ -36,3 +36,85 @@
         padding: 2rem 3%;
     }
 }
+
+/* Para pantallas menores a 768px */
+@media (max-width: 768px) {
+    html{
+        font-size: 65%; /* Ajusta el tamaño de la fuente */
+    }
+
+    #menu-icon {
+        display: block; /* Muestra el ícono del menú */
+    }
+
+    .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding: 1rem 3%;
+        background: var(--bg-color);
+        border-top: .1rem solid rgba(0, 0, 0, .2);
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
+        display: none;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .navbar.active {
+        display: block; /* Muestra el menú cuando está activo */
+    }
+
+    .navbar a {
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
+    }
+
+    .home {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home-content h3 {
+        text-align: center;
+    }
+
+    .home-content .btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        margin-top: 2rem;
+        margin-left: 30%;
+        margin-right: 30%;
+        padding: 1rem 2.8rem;
+    }
+
+    .home-content h1, .home-content p {
+        text-align: center;
+    }
+
+    .home-img img {
+        width: 27vw;
+        margin-top: 4rem;
+    }
+
+    .social-media {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap: 1.5rem;
+        margin-top: 2rem;
+    }
+
+    .social-media a {
+        margin: 0.5rem;
+    }
+
+    .btn {
+        padding: 1rem 2.8rem;
+        text-align: center;
+    }
+}
