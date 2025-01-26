@@ -181,3 +181,28 @@ span {
     border: 0.2rem solid var(--hover-color);
     transform: scale(1.1);
 }
+
+/* -------------------------------------------------------------------
+   Botón general: Estilos para botones reutilizables
+------------------------------------------------------------------- */
+.btn {
+    display: inline-block;
+    padding: 1.4rem 3.4rem;
+    background: var(--main-color);
+    border-radius: 4rem;
+    font-size: 1.6rem;
+    color: var(--bg-color);
+    letter-spacing: 0.1rem;
+    font-weight: 800;
+    transition: all 0.4s ease-in-out;
+}
+
+.home-content a {
+    font-size: 2rem;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    background-color: var(--hover-color);
+    box-shadow: 0 0 1rem var(--hover-color);
+}
