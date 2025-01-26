@@ -1,0 +1,15 @@
+/* -------------------------------------------------------------------
+   Media Queries: Estilos responsivos para diferentes tamaños de pantalla
+------------------------------------------------------------------- */
+
+/* Para pantallas menores a 1200px */
+@media (max-width: 1200px) {
+    html{
+        font-size: 80%; /* Ajusta el tamaño de la fuente */
+    }
+
+    .about, .skills, .projects, .contact{
+        min-height: auto;
+        padding-bottom: 10%;
+    }
+}
