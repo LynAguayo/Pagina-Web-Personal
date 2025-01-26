@@ -322,3 +322,13 @@ span {
     margin-top: 0.5rem;
     font-size: 2rem;
 }
+
+/* -------------------------------------------------------------------
+   Estilos para la fecha dentro de las cajas de contenido
+------------------------------------------------------------------- */
+.date p {
+    font-size: 1.3rem;
+    color: var(--text-color);
+    font-weight: 700;
+    margin-top: 0.5rem;
+}
