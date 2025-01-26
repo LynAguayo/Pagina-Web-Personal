@@ -37,3 +37,13 @@ body {
     background: var(--bg-color);
     color: var(--text-color);
 }
+
+/* -------------------------------------------------------------------
+   Configuración de las secciones principales
+------------------------------------------------------------------- */
+section {
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+    overflow: hidden;
+    width: 100%;
+}
