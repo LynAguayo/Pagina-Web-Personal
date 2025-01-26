@@ -98,3 +98,18 @@ section {
     color: var(--text-color);
     display: none;
 }
+
+
+/* -------------------------------------------------------------------
+   Section HOME: Estilos para la portada principal
+------------------------------------------------------------------- */
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.home-content {
+    width: 100%;
+}
