@@ -5,7 +5,7 @@
 /* Para pantallas menores a 1200px */
 @media (max-width: 1200px) {
     html{
-        font-size: 80%; /* Ajusta el tamaño de la fuente */
+        font-size: 80%; 
     }
 
     .about, .skills, .projects, .contact{
@@ -40,11 +40,11 @@
 /* Para pantallas menores a 768px */
 @media (max-width: 768px) {
     html{
-        font-size: 65%; /* Ajusta el tamaño de la fuente */
+        font-size: 65%; 
     }
 
     #menu-icon {
-        display: block; /* Muestra el ícono del menú */
+        display: block; 
     }
 
     .navbar {
@@ -61,7 +61,7 @@
     }
 
     .navbar.active {
-        display: block; /* Muestra el menú cuando está activo */
+        display: block;
     }
 
     .navbar a {
@@ -137,7 +137,7 @@
 /* Para pantallas menores a 365px */
 @media (max-width: 365px){
     .footer{
-        flex-direction: column-reverse; /* Cambia la dirección de los elementos */
+        flex-direction: column-reverse; 
     }
 
     .footer p{
