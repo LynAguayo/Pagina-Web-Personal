@@ -243,3 +243,33 @@ span {
     font-size: 2rem;
     margin: 2rem 0 2rem;
 }
+
+/* -------------------------------------------------------------------
+   Section ABOUT Timeline: Estilos para la línea de tiempo de Educación 
+   y Experiencia Laboral
+------------------------------------------------------------------- */
+.timeline-wrapper {
+    width: 100%;
+}
+
+.timeline-col {
+    width: 100%;
+}
+
+.timeline-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    gap: 2rem; 
+}
+
+.heading-timeline {
+    font-size: 3.5rem;
+    margin: 2rem 0;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.heading-timeline i {
+    font-size: 4rem;
+}
