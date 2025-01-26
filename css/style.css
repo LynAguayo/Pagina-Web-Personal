@@ -2,3 +2,23 @@
    Importación de fuentes desde Google Fonts
 ------------------------------------------------------------------- */
 @import url("https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100..900&display=swap");
+
+/* -------------------------------------------------------------------
+   Configuración global: Estilos iniciales y variables CSS
+------------------------------------------------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    font-family: "Smooch Sans", sans-serif;
+}
+
+:root {
+    --bg-color: #ffffff;
+    --second-bg-color: #fff0f0;
+    --text-color: #000000;
+    --main-color: #FF7E70;
+    --hover-color: #ff6347;
+}
