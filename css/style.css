@@ -465,3 +465,15 @@ span {
     object-fit: cover;  
     border-radius: 2rem 0rem 0rem; 
 }
+
+.projects-card h3 {
+    margin-top: 1rem;
+    font-size: 2.5rem; 
+    color: var(--main-color);
+}
+
+.projects-card p {
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
