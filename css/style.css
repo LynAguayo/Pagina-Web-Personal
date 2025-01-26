@@ -334,7 +334,7 @@ span {
 }
 
 /* -------------------------------------------------------------------
-   Estilos para el círculo que aparece antes de cada caja de contenido
+   Estilos para el punto que aparece en la timeline
 ------------------------------------------------------------------- */
 .content-box::before {
     position: absolute;
@@ -353,4 +353,20 @@ span {
     transform: scale(1.1);     
     box-shadow: 0;
     box-shadow: 4px 4px 20px var(--hover-color);
+}
+
+/* -------------------------------------------------------------------
+   Section SKILLS: Estilos para la sección de habilidades
+------------------------------------------------------------------- */
+.skills {
+    background: var(--bg-color);
+}
+
+.skills .heading {
+    margin-bottom: 4.5rem;
+}
+
+.info img {
+    width: 4rem;
+    height: 4rem;
 }
