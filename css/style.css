@@ -47,3 +47,34 @@ section {
     overflow: hidden;
     width: 100%;
 }
+
+/* -------------------------------------------------------------------
+   Header: Barra de navegación fija
+------------------------------------------------------------------- */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    background: var(--bg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    /* Borde gris fino */
+    /* border-bottom: 0.01rem solid rgba(0, 0, 0, 0.1); */
+}
+
+.logo {
+    font-size: 3rem;
+    color: var(--text-color);
+    font-weight: 600;
+    cursor: pointer;  
+    transition: 0.3s ease-in-out;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+    color: var(--hover-color);
+}
