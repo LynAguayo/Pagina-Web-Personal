@@ -25,3 +25,6 @@ Este es un proyecto web personal desarrollado con HTML, CSS y JavaScript (básic
 
 2. Abre el archivo `index.html` en tu navegador.
 
+También, puedes verlo usando el siguiente enlace:
+[**evelyn-aguayo-portfolio.netlify.app**](https://evelyn-aguayo-portfolio.netlify.app/)
+
